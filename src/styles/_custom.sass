@@ -37,8 +37,6 @@
   100% 
     transform: translateY(0px) scale(1)
   
-
-  
   
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -54,4 +52,160 @@
 
 figcaption
   font-weight: normal
- 
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
+
+/// STYLES GENERALES
+.fondo-text-img
+  background-image: url("../assets/curso/intro/fondo.png")
+  background-repeat: no-repeat
+  background-size: 1150px
+  background-position: bottom
+  margin-top: -2.5rem
+  margin-inline: -3.2rem !important
+  padding: 2rem 2rem 1rem 2.5rem
+  @media screen and (max-width: 1024px)
+    padding: 1rem 2rem 0rem 2.5rem
+  @media screen and (min-width: 1400px)
+    background-size: 1400px
+
+.fondo-slider
+  background-image: url("../assets/curso/tema1/fondo.png")
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+
+.fondo-tema2
+  background-image: url("../assets/curso/tema2/fondo1.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  padding: 0rem 2rem 1rem 2.5rem
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+
+/// INTRO
+.caja-text-intro
+  background-color: $color-adicional-2
+  padding: 0.8rem 2rem 0.8rem 2rem
+  margin-left: -0.8rem
+  @media screen and (max-width: 1024px)
+    margin-left: 0rem
+  @media screen and (min-width: 1400px)
+    padding: 2.5rem 2rem 2rem 2rem 
+.img-intro
+  animation: float 3.5s ease-in-out infinite alternate
+  position: relative
+  top: 0%
+  left: 0%
+@keyframes float
+  0%
+    transform: translateY(20px)
+  100%
+    transform: translateY(0px)
+
+/// TEMA 1
+/// BLOQUE 1
+.text-tema1-bloque1
+  background-color: $color-adicional-3
+  padding: 0rem 0rem 0rem 2rem
+  @media screen and (max-width: 1024px)
+    padding: 2rem
+
+/// BLOQUE 2
+.ajuste-slider
+  width: 92%
+  border-radius: 20px
+  margin: 4rem 2rem 4rem 3rem
+  padding: 2rem 4rem 1rem 4rem
+  background-color: $white
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4)
+  @media screen and (max-width: 1024px)
+    margin: 4rem 0rem 4rem 2rem
+  @media screen and (max-width: 390px)
+    width: 85%
+    margin: 2rem 0rem 2rem 2rem
+    padding: 2rem 2rem 1rem 2rem
+.slyder-a__btn--atrs
+  background-color: $color-acento-botones
+.slyder-a__btn--sigt
+  background-color: $color-acento-botones
+.slyder-a__bullets__item 
+  background-color: #FDEF92
+  border: 0px
+.slyder-a__bullets__item--active
+  background-color: $color-acento-contenido
+
+/// BLOQUE 3
+.caja-img-tema1-bloque3
+  background-color: $color-adicional-4
+  padding: 3rem
+  @media screen and (max-width: 390px)
+    padding: 1rem
+.img-bloque3
+  animation: float 3.5s ease-in-out infinite alternate
+  position: relative
+  top: 0%
+  left: 0%
+@keyframes float
+  0%
+    transform: translateY(10px)
+  100%
+    transform: translateY(0px)
+
+/// BLOQUE 5
+.caja-text-img-tema1-bloque5
+  background-color: $color-adicional-2
+  padding: 1rem 2rem 1rem 2rem
+  @media screen and (min-width: 1400px)
+    padding: 2.5rem 2rem 2rem 2rem 
+
+.caja-text-img-tema1-bloque5-1
+  background-color: $color-adicional-7
+  padding: 2rem 2rem 1rem 2rem
+  border-radius: 10px
+  @media screen and (min-width: 1400px)
+    padding: 3rem 2rem 3rem 2rem
+  h4 
+    color: $color-acento-contenido
+.img-tema1-bloque5
+  padding-right: 2rem
+  @media screen and (min-width: 1400px)
+    max-width: 250px !important
+
+.tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  margin-bottom: 2rem !important
+.tarjeta-audio
+  background-color: $color-adicional-8
+  border-radius: 10px
+  padding: 2rem
+.tarjeta-audio .color-secundario .tarjeta-audio__input input[type=range]
+  background: rgba(198, 230, 151, 0.2)
+  background-image: linear-gradient(rgb(137, 160, 104), rgb(137, 160, 104))
+
+.ajuste-img-tema1-bloque5
+  @media screen and (min-width: 1400px)
+    max-width: 600px !important
+
+
+/// TEMA 2
+
+/// BLOQUE 1
+.caja-text-img-tema1-bloque2
+  background-color: $white
+  border-radius: 8px
+  box-shadow: 0px 3px 20px rgba(15, 31, 51, 0.3)
+  padding: 1.5rem
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-align: center
+.ajuste-1
+  @media screen and (max-width: 1024px)
+    margin-top: 2rem
+.ajuste-2
+  @media screen and (max-width: 390px)
+    margin-top: 2rem
