@@ -8,7 +8,7 @@
       h1 Biodiversidad en agroecosistemas
     
     <!-- BLOQUE 1 -->
-    .row.text-tema1-bloque1.h-100.align-items-center.d-d-flex
+    .row.text-tema1-bloque1.h-100.align-items-center.d-d-flex.ajuste-movil-bloque4
       .col-lg
         p.mb-0 La diversidad agrícola o agrodiversidad es un concepto que vincula la diversidad biológica con la producción agrícola. Su importancia radica en la disponibilidad de recursos asociados a la flora y fauna, incluyendo bioindicadores del suelo y otros organismos que favorecen el desarrollo óptimo de los agroecosistemas. En los últimos años, los científicos han resaltado la relevancia de la biodiversidad para que los sistemas agrícolas produzcan en armonía con el medio biótico, convirtiéndola en un principio fundamental de la agricultura sostenible (Metroflor-Agro, 2017).
       .col-lg-auto.p-0
@@ -20,7 +20,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Inventarios y evaluación
     
-    p.mb-5 Conocer la biodiversidad en un sistema agrícola o pecuario es esencial para implementar un manejo sostenible y garantizar una productividad óptima a lo largo del ciclo de vida del agroecosistema. A continuación, se presentan algunos aspectos clave que justifican la gestión de la biodiversidad en una finca (FAO, 2018).
+    p.mb-5.ajuste-movil-bloque4 Conocer la biodiversidad en un sistema agrícola o pecuario es esencial para implementar un manejo sostenible y garantizar una productividad óptima a lo largo del ciclo de vida del agroecosistema. A continuación, se presentan algunos aspectos clave que justifican la gestión de la biodiversidad en una finca (FAO, 2018).
 
     .row.fondo-slider
       .ajuste-slider
@@ -74,9 +74,9 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Gestión entre servicios ecosistémicos y biodiversidad
     
-    p.mb-5 Según la FAO (2018), es fundamental promover sistemas productivos sostenibles basados en los principios de la agroecología. Este enfoque permite integrar factores ecológicos, sociales y propios de los agroecosistemas, garantizando una producción en armonía con la biodiversidad. Para ello, es necesario implementar acciones climáticas que vinculen la conservación de la biodiversidad con el desarrollo territorial sostenible.
+    p.mb-5.ajuste-movil-bloque4 Según la FAO (2018), es fundamental promover sistemas productivos sostenibles basados en los principios de la agroecología. Este enfoque permite integrar factores ecológicos, sociales y propios de los agroecosistemas, garantizando una producción en armonía con la biodiversidad. Para ello, es necesario implementar acciones climáticas que vinculen la conservación de la biodiversidad con el desarrollo territorial sostenible.
 
-    .titulo-sexto.color-acento-contenido.mb-3.d-flex
+    .titulo-sexto.color-acento-contenido.mb-3.d-flex.ajuste-movil-bloque4
       h5 Figura 1.
       span Gestión de la biodiversidad y servicios
     
@@ -91,7 +91,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Tipos de coberturas vegetales
     
-    p Teniendo en cuenta la leyenda nacional de coberturas de la tierra 2010, las categorías de primer nivel según metodología <em>Corine Land Cover</em> se definen como (IDEAM, 2009): 
+    p.ajuste-movil-bloque4 Teniendo en cuenta la leyenda nacional de coberturas de la tierra 2010, las categorías de primer nivel según metodología <em>Corine Land Cover</em> se definen como (IDEAM, 2009): 
 
     .row.fondo-slider
       .ajuste-slider
@@ -140,7 +140,7 @@
     
     .row
       .col-lg
-        .row.caja-text-img-tema1-bloque5.mb-3
+        .row.caja-text-img-tema1-bloque5.mb-3.ajuste-movil-bloque4
           .col-lg-auto
             figure(data-aos="fade-right").d-none.d-lg-block
               img(src="@/assets/curso/tema1/img1.svg" style="max-width: 90px").m-auto
@@ -157,10 +157,10 @@
           img.ajuste-img-tema1-bloque5(src="@/assets/curso/tema1/img14.png" style="max-width: 420px").m-auto
       .col-lg.caja-text-img-tema1-bloque5-1.d-flex.h-100.justify-content-center.align-items-center
         .col-auto
-          figure(data-aos="fade-up").d-none.d-lg-block
+          figure.d-none.d-lg-block.img-intro
             img.img-tema1-bloque5(src="@/assets/curso/tema1/img15.png" style="max-width: 185px").m-auto
         .col
-          h4.mb-5 Lo invitamos a escuchar el siguiente Pódcast:
+          h4.mb-5 Lo invitamos a escuchar el siguiente <em>Podcast</em>:
           TarjetaAudio.color-secundario.mb-3(
             texto="Bioindicadores"
             :audio="require('@/assets/componentes/audios/audio-ej.mp3')"

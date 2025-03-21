@@ -86,6 +86,88 @@ figcaption
   @media screen and (min-width: 1400px)
     background-size: 1325px
 
+.fondo-tema2-1
+  background-image: url("../assets/curso/tema2/fondo2.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  padding: 0rem 2rem 1rem 2.5rem
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+
+///CAJA DE NOTAS CON ICON DE ALERTA
+.caja-text-img-nota
+  display: flex
+  background-color: $color-adicional-2
+  @media screen and (max-width: 1024px)
+    margin-top: 2rem
+  p
+    align-items: center
+    justify-content: center
+    padding: 2rem 3rem 2rem 4rem
+    @media screen and (max-width: 1024px)
+      padding: 1rem
+    @media screen and (min-width: 1400px)
+      padding: 2rem 3rem 2rem 3rem
+  img
+    position: relative
+    left: 30px
+.caja-text-img-nota-corto
+  display: flex
+  background-color: $color-adicional-6
+  border-radius: 7px
+  @media screen and (max-width: 1024px)
+    margin-top: 2rem
+  p
+    align-items: center
+    justify-content: center
+    padding: 2rem 3rem 2rem 4rem
+    @media screen and (max-width: 1024px)
+      padding: 1rem
+    @media screen and (min-width: 1400px)
+      padding: 2rem 3rem 2rem 3rem
+  img
+    position: relative
+    left: 30px
+
+/// CAJA TEXTO ICON DE TITULOS TERCER NIVEL
+.caja.titulos-terciarios
+  position: relative
+  display: inline-flex
+  align-items: flex-end
+  padding-right: 1rem
+  padding-left: 0.5rem
+  @media screen and (max-width: 1024px)
+    padding-left: 1.4rem
+  @media screen and (max-width: 390px)
+    display: flex
+  &::before
+    content: ""
+    position: absolute
+    background-color: $color-acento-contenido
+    border-radius: 48px
+    top: 40%
+    bottom: 0%
+    left: 0%
+    right: 0%
+    z-index: 0
+    @media screen and (max-width: 390px)
+      top: 5%
+  h3
+    position: relative
+    margin: 0rem 0rem 0rem 0rem
+    padding: 0.3rem 0.3rem 0.3rem 0.6rem 
+  img
+    max-width: 100% !important
+    position: relative
+    bottom: -2px
+    left: 4px
+.ajuste-movil
+  h3
+    @media screen and (max-width: 390px)
+      margin-top: -2.8rem !important
+
+
 /// INTRO
 .caja-text-intro
   background-color: $color-adicional-2
@@ -95,8 +177,9 @@ figcaption
     margin-left: 0rem
   @media screen and (min-width: 1400px)
     padding: 2.5rem 2rem 2rem 2rem 
+
 .img-intro
-  animation: float 3.5s ease-in-out infinite alternate
+  animation: float 3s ease-in-out infinite alternate
   position: relative
   top: 0%
   left: 0%
@@ -106,7 +189,19 @@ figcaption
   100%
     transform: translateY(0px)
 
+.img-intro-1
+  animation: float 2s ease-in-out infinite alternate
+  position: relative
+  top: 0%
+  left: 0%
+@keyframes float
+  0%
+    transform: translateY(30px)
+  100%
+    transform: translateY(0px)
+
 /// TEMA 1
+
 /// BLOQUE 1
 .text-tema1-bloque1
   background-color: $color-adicional-3
@@ -137,6 +232,11 @@ figcaption
   border: 0px
 .slyder-a__bullets__item--active
   background-color: $color-acento-contenido
+.slyder-a__bullets__item
+  @media screen and (max-width: 390px)
+    width: 10px !important
+    height: 10px !important
+    margin: 5px !important
 
 /// BLOQUE 3
 .caja-img-tema1-bloque3
@@ -182,9 +282,9 @@ figcaption
   background-color: $color-adicional-8
   border-radius: 10px
   padding: 2rem
-.tarjeta-audio .color-secundario .tarjeta-audio__input input[type=range]
-  background: rgba(198, 230, 151, 0.2)
-  background-image: linear-gradient(rgb(137, 160, 104), rgb(137, 160, 104))
+.tarjeta-audio.color-secundario .tarjeta-audio__input input[type=range]
+  background: rgb(243, 213, 22)
+  background-image: linear-gradient(#c7ad02, #c7ad02)
 
 .ajuste-img-tema1-bloque5
   @media screen and (min-width: 1400px)
@@ -209,3 +309,132 @@ figcaption
 .ajuste-2
   @media screen and (max-width: 390px)
     margin-top: 2rem
+
+/// BLOQUE 3
+.ajuste-tabla
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  table
+    width: 100%;
+    min-width: 500px
+    border-collapse: collapse
+    table-layout: auto
+  thead
+    border-top: 1px solid $color-acento-contenido !important
+    background-color: $color-acento-contenido !important
+  tbody
+    background-color: #F7F7F7 !important
+.ajuste-align
+  text-align: left
+
+.ajuste-movil-bloque3
+  @media screen and (max-width: 1024px)
+    margin-top: -0.5rem
+    align-self: center
+
+//// BLOQUE 4
+.fondo-color
+  background-color: $color-adicional-4
+  padding: 1.5rem 2rem 1.5rem 2.5rem
+  img
+    @media screen and (min-width: 1400px)
+      max-width: 720px !important
+.text-tema2-bloque4
+  background-color: $white
+  padding: 2rem 3rem 2rem 3rem
+  max-width: 300px
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2)
+  @media screen and (min-width: 1400px)
+    max-width: 290px
+    padding: 4rem 3rem 4rem 3rem
+  @media screen and (max-width: 1024px)
+    margin-top: 0.5rem
+    max-width: 92%
+
+.text-tema2-bloque4-1
+  background-color: $color-adicional-2
+  padding: 1rem 3rem 1rem 3rem
+  @media screen and (min-width: 1400px)
+    padding: 2rem 3rem 2rem 3rem
+.ajuste-img
+  img
+    @media screen and (min-width: 1400px)
+      max-width: 720px !important
+
+.ajuste-color-1
+  background-color: $color-adicional-2
+  margin-top: -1.5rem
+  padding: 1rem 2.5rem 1rem 2.5rem
+  @media screen and (min-width: 1400px)
+    padding: 2.1rem 3rem 1.5rem 3rem
+.ajuste-color-2
+  background-color: $color-adicional-3
+  margin-top: -1.5rem
+  padding: 3.3rem 3rem 3.3rem 3rem
+
+table caption
+  font-weight: 500 !important
+
+.ajuste-movil-bloque4
+  @media screen and (max-width: 1024px)
+    margin-top: -1.5rem
+    align-self: center
+
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+.acordeonA
+  position: relative
+  background-color: $color-adicional-6
+  width: 100%
+  left: 0rem
+  @media screen and (max-width: 1024px)
+    width: 100%
+    left: initial
+  p
+    padding-left: 3.5rem
+.acordion__activo
+  background-color: $color-adicional-5
+  p
+    padding-left: 3.5rem
+.ajuste-i
+  padding: 0rem 2rem 0rem 2rem
+  @media screen and (max-width: 390px)
+    padding: 0rem
+  i
+    font-size: 16px
+    margin-left: 1.5rem
+    color: $color-adicional-7
+    
+    @media screen and (max-width: 1024px)
+      margin-left: 1rem
+    @media screen and (min-width: 1400px)
+      margin-left: 2.5rem
+  p
+    padding: 0rem
+    @media screen and (max-width: 390px)
+      margin-left: 0.9rem
+.ajuste-i-2
+  padding: 0rem
+  i
+    font-size: 16px
+    color: $color-adicional-7
+  p
+    padding: 0rem
+    margin-left: -1.5rem
+    @media screen and (max-width: 390px)
+      margin-left: 0rem
+    @media screen and (min-width: 1400px)
+      margin-left: -2.5rem
+   
+.caja-text-bloque4
+  background-color: $color-adicional-2
+  padding: 1.5rem
+  align-content: center
+.dividir-caja
+  border-left: 1px solid $color-adicional-7
+
+.ajuste-img-matrix
+  img
+    @media screen and (min-width: 1400px)
+      max-width: 1050px !important
