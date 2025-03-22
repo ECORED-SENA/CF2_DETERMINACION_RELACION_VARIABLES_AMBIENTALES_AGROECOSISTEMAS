@@ -343,97 +343,39 @@
             img(src="@/assets/curso/tema2/img16.png", alt="alt" style="width: 370px").m-auto
         .col-lg
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
-            .row(titulo="Físicas").ajuste-i
-              .col-1
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>Textura y estructura</strong>: influye en la retención y transporte de agua y compuestos químicos, además de afectar la erosión del suelo.
-              .col-1
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>Profundidad del suelo</strong>: determina la productividad potencial del suelo y su susceptibilidad a la erosión.
-              .col-1
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>Infiltración y densidad aparente</strong>: relacionada con el potencial de lavado, la productividad del suelo y su erosividad.
-              .col-1
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>Capacidad de retención de agua</strong>: influye en la retención de agua, el transporte de compuestos, la erosividad, la humedad aprovechable, la textura y la materia orgánica del suelo.
-            .row(titulo="Químicas ").ajuste-i
-              .col-1
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>Materia orgánica (N y C total)</strong>: define la fertilidad del suelo, su estabilidad y su susceptibilidad a la erosión.
-              .col-1 
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>pH</strong>: determina la actividad química y biológica del suelo.
-              .col-1
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>Conductividad eléctrica</strong>: influye en la actividad vegetal y microbiana.
-              .col-1
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>P, N y K extractables</strong>: representan los nutrientes disponibles para la planta, la posible pérdida de nitrógeno, la productividad y los indicadores de calidad ambiental.                
-            .row(titulo="Biológicas").ajuste-i
-              .col-1
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>Biomasa microbiana (C y N)</strong>: representa el potencial microbiano catalítico y actúa como depósito de carbono y nitrógeno, reflejando cambios tempranos en la materia orgánica debido al manejo del suelo.
-              .col-1 
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>Respiración, humedad y temperatura</strong>: miden la actividad microbiana y permiten estimar la actividad de la biomasa.
-              .col-1
-                <i class="fas fa-leaf"></i>
-              .col-11
-                p <strong>N potencialmente mineralizable</strong>: indica la productividad del suelo y el suministro potencial de nitrógeno.
-
+            .row(titulo="Físicas").ajuste-cajaAcordion
+              <ul class="fa-ul">
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>Textura y estructura</strong>: influye en la retención y transporte de agua y compuestos químicos, además de afectar la erosión del suelo.</li>
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>Profundidad del suelo</strong>: determina la productividad potencial del suelo y su susceptibilidad a la erosión.</li>
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>Infiltración y densidad aparente</strong>: relacionada con el potencial de lavado, la productividad del suelo y su erosividad.</li>
+                <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>Capacidad de retención de agua</strong>: influye en la retención de agua, el transporte de compuestos, la erosividad, la humedad aprovechable, la textura y la materia orgánica del suelo.</li>
+              </ul>
+            .row(titulo="Químicas ").ajuste-cajaAcordion
+              <ul class="fa-ul">
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>Materia orgánica (N y C total)</strong>: define la fertilidad del suelo, su estabilidad y su susceptibilidad a la erosión.</li>
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>pH</strong>: determina la actividad química y biológica del suelo.</li>
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>Conductividad eléctrica</strong>: influye en la actividad vegetal y microbiana.</li>
+                <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>P, N y K extractables</strong>: representan los nutrientes disponibles para la planta, la posible pérdida de nitrógeno, la productividad y los indicadores de calidad ambiental.</li>
+              </ul>               
+            .row(titulo="Biológicas").ajuste-cajaAcordion
+              <ul class="fa-ul">
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>Biomasa microbiana (C y N)</strong>: representa el potencial microbiano catalítico y actúa como depósito de carbono y nitrógeno, reflejando cambios tempranos en la materia orgánica debido al manejo del suelo.</li>
+                <li class="mb-3"><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>Respiración, humedad y temperatura</strong>: miden la actividad microbiana y permiten estimar la actividad de la biomasa.</li>
+                <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>N potencialmente mineralizable</strong>: indica la productividad del suelo y el suministro potencial de nitrógeno.</li>
+              </ul>
     .row.mb-4.ajuste-movil-bloque4
       .col-lg
         p.mb-4 Para seleccionar los indicadores que forman parte de las variables de calidad del suelo, es necesario que cumplan con ciertas condiciones (Masera et al., 2000):
-        .row.ajuste-i-2
-          .col-1
-            <i class="fas fa-leaf"></i>
-          .col-11
-            p.mb-0 Ser integradores.
-        .row.ajuste-i-2
-          .col-1
-            <i class="fas fa-leaf"></i>
-          .col-11
-            p.mb-0 Ser fáciles de medir, basados en información objetiva y de fácil reconocimiento.
-        .row.ajuste-i-2
-          .col-1
-            <i class="fas fa-leaf"></i>
-          .col-11
-            p.mb-0 Adecuarse al nivel de análisis y al sistema estudiado.
-        .row.ajuste-i-2
-          .col-1
-            <i class="fas fa-leaf"></i>
-          .col-11
-            p.mb-0 Ser aplicables a diversos ecosistemas y condiciones.
-        .row.ajuste-i-2
-          .col-1
-            <i class="fas fa-leaf"></i>
-          .col-11
-            p.mb-0 Reflejar el atributo de sostenibilidad que se desea evaluar.
-        .row.ajuste-i-2
-          .col-1
-            <i class="fas fa-leaf"></i>
-          .col-11
-            p.mb-0 Ser comprensibles y accesibles para su interpretación.
-        .row.ajuste-i-2
-          .col-1
-            <i class="fas fa-leaf"></i>
-          .col-11
-            p.mb-0 Permitir identificar cambios y diferencias entre los sistemas.
-        .row.ajuste-i-2
-          .col-1
-            <i class="fas fa-leaf"></i>
-          .col-11
-            p.mb-0 Centrarse en aspectos prácticos y relevantes.
+        <ul class="fa-ul ajuste-ul-tema2">
+          <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span>Ser integradores.</li>
+          <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span>Ser fáciles de medir, basados en información objetiva y de fácil reconocimiento.</li>
+          <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span>Adecuarse al nivel de análisis y al sistema estudiado.</li>
+          <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span>Ser aplicables a diversos ecosistemas y condiciones.</li>
+          <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span>Reflejar el atributo de sostenibilidad que se desea evaluar.</li>
+          <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span>Ser comprensibles y accesibles para su interpretación.</li>
+          <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span>Permitir identificar cambios y diferencias entre los sistemas.</li>
+          <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span>Centrarse en aspectos prácticos y relevantes.</li>
+        </ul>
       .col-lg-auto
         figure(data-aos="fade-left").d-none.d-lg-block
           img(src="@/assets/curso/tema2/img17.png", alt="alt" style="width: 410px").m-auto
