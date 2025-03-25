@@ -204,8 +204,8 @@
     
     .row.mb-4.ajuste-movil-bloque4
       .col-lg
-        p Entre las principales variables del suelo que pueden influir en el desarrollo de los agroecosistemas se encuentran las siguientes:
-        .caja.titulos-terciarios.mb-4   
+        p.mb-5 Entre las principales variables del suelo que pueden influir en el desarrollo de los agroecosistemas se encuentran las siguientes:
+        .caja-titulos-tercer-nivel.mb-4
           .col-lg-auto
             figure(data-aos="fade-right")
               img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
@@ -229,11 +229,11 @@
     
     figcaption.mb-5 Nota. Tomado de Fundación Grupo Cajamar, 2024. 
     
-    .caja.titulos-terciarios.mb-5.ajuste-movil-bloque4
+    .caja-titulos-tercer-nivel.mb-5
       .col-lg-auto
         figure(data-aos="fade-right")
           img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
-      .col.ajuste-movil
+      .col
         h3 Profundidad del suelo
     
     .row.m-0.mb-4
@@ -289,7 +289,7 @@
     
     .row.mb-5.ajuste-movil-bloque4
       .col-lg-6.mb-3
-        .caja.titulos-terciarios
+        .caja-titulos-tercer-nivel.ajuste__movil
           .col-lg-auto
             figure(data-aos="fade-right")
               img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
@@ -299,17 +299,17 @@
           img(src="@/assets/curso/tema2/img14.png" style="max-width: 650px").m-auto
         p.mb-0.ajuste-color-1 Permite determinar la porosidad total del suelo, ya que se refiere al peso por unidad de volumen. Se distinguen dos tipos: la densidad real, que corresponde a las partículas densas del suelo y varía según su composición, con un valor promedio de 2,65; y la densidad aparente, que considera el volumen total del suelo, incluyendo espacios porosos (FAO, 2025).
       .col-lg-6
-        .caja.titulos-terciarios
-            .col-lg-auto
-              figure(data-aos="fade-right")
-                img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
-            .col.ajuste-movil
-              h3 pH del suelo
+        .caja-titulos-tercer-nivel.ajuste__movil
+          .col-lg-auto
+            figure(data-aos="fade-right")
+              img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
+          .col
+            h3 pH del suelo
         figure(data-aos="fade-up").py-4
           img(src="@/assets/curso/tema2/img15.png" style="max-width: 650px").m-auto
         p.mb-0.ajuste-color-2 Indica la actividad de los iones hidrógeno en la solución del suelo, determinando si es ácido, neutro o alcalino. Este parámetro influye en múltiples factores edáficos y afecta directamente el crecimiento de las plantas.
     
-    .caja.titulos-terciarios.mb-4.ajuste-movil-bloque4
+    .caja-titulos-tercer-nivel.mb-4
       .col-lg-auto
         figure(data-aos="fade-right")
           img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
@@ -363,7 +363,7 @@
                 <li class="mb-3"><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>Respiración, humedad y temperatura</strong>: miden la actividad microbiana y permiten estimar la actividad de la biomasa.</li>
                 <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span><strong>N potencialmente mineralizable</strong>: indica la productividad del suelo y el suministro potencial de nitrógeno.</li>
               </ul>
-    .row.mb-4.ajuste-movil-bloque4
+    .row.mb-5.ajuste-movil-bloque4
       .col-lg
         p.mb-4 Para seleccionar los indicadores que forman parte de las variables de calidad del suelo, es necesario que cumplan con ciertas condiciones (Masera et al., 2000):
         <ul class="fa-ul ajuste-ul-tema2">
@@ -380,7 +380,7 @@
         figure(data-aos="fade-left").d-none.d-lg-block
           img(src="@/assets/curso/tema2/img17.png", alt="alt" style="width: 410px").m-auto
     
-    .caja.titulos-terciarios.mb-4
+    .caja-titulos-tercer-nivel.mb-4
       .col-lg-auto
         figure(data-aos="fade-right")
           img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
