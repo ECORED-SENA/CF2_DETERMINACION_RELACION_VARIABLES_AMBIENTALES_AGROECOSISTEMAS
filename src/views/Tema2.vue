@@ -12,7 +12,7 @@
       .col-lg
         p.mb-0 Para mayor comprensión a continuación, se describen cada una de las variables ambientales que pueden tener incidencia en el desarrollo de los agroecosistemas.
       .col-lg-auto.p-0
-        figure(data-aos="fade-left").d-none.d-lg-block
+        figure(data-aos="fade-left").d-none.d-xl-block
           img(src="@/assets/curso/tema2/img1.png" style="max-width: 400px").m-auto
 
     <!-- BLOQUE 2 -->
@@ -24,33 +24,33 @@
       p.mb-5.ajuste-movil-bloque4 Entre las variables agroclimáticas más importantes están:
 
       .row.mb-4.ajuste-movil-bloque4
-        .col-lg-3.col-md-6
+        .col-xl-3.col-md-6
           .caja-text-img-tema1-bloque2.h-100
             .col-7
               figure.img-intro.mb-3
                 img(src='@/assets/curso/tema2/img1.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
-            h5.mb-4 Temperatura (°C)
+            h5.mb-4.text-center Temperatura (°C)
             p Magnitud física que expresa el grado de frío o calor de los cuerpos o del ambiente.
-        .col-lg-3.col-md-6.ajuste-2
+        .col-xl-3.col-md-6.ajuste-2
           .caja-text-img-tema1-bloque2.h-100
             .col-7
               figure.img-intro-1.mb-3
                 img(src='@/assets/curso/tema2/img2.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
-            h5.mb-4 Humedad Relativa (%)
+            h5.mb-4.text-center Humedad Relativa (%)
             p Cantidad de vapor de agua presente en el aire en relación a la máxima posible para unas condiciones dadas de presión y temperatura.
-        .col-lg-3.col-md-6.ajuste-1
+        .col-xl-3.col-md-6.ajuste-1
           .caja-text-img-tema1-bloque2.h-100
             .col-7
               figure.img-intro.mb-3
                 img(src='@/assets/curso/tema2/img3.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
-            h5.mb-4 Precipitación (mm)
+            h5.mb-4.text-center Precipitación (mm)
             p Cantidad de lluvias que se presenta en un lugar y tiempo determinado. La relación entre precipitación y temperatura a través del tiempo constituyen los escenarios de cambio climático.
-        .col-lg-3.col-md-6.ajuste-1
+        .col-xl-3.col-md-6.ajuste-1
           .caja-text-img-tema1-bloque2.h-100
             .col-7
               figure.img-intro-1.mb-3
                 img(src='@/assets/curso/tema2/img4.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
-            h5.mb-4 Velocidad del Viento (m/s)
+            h5.mb-4.text-center Velocidad del Viento (m/s)
             p Relación de la distancia recorrida por el aire con respecto al tiempo empleado en recorrerla.
 
     p.mb-4 Según la FAO (2021), IDEAM (2018) y Minagricultura (2024), las variables agroclimáticas permiten identificar las condiciones atmosféricas que pueden afectar la producción agrícola y el equilibrio de los agroecosistemas. Algunos de los principales factores que influyen en su desarrollo incluyen:
@@ -60,56 +60,56 @@
         SlyderA(tipo="b")
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/tema2/img2.png', alt='Texto que describa la imagen')
             .col-lg-6.mb-4
               h4.mb-4 Temperatura
               p Influye en la germinación, crecimiento y desarrollo de los cultivos. Determina la tasa de fotosíntesis y respiración de las plantas. Variaciones extremas pueden afectar la producción agrícola (heladas, sequías).
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
             .col-lg-6.mb-4
               h4.mb-4 Humedad relativa
               p Afecta la transpiración de las plantas y la evapotranspiración del suelo. Valores muy altos pueden favorecer enfermedades por hongos, mientras que valores bajos pueden provocar estrés hídrico en los cultivos.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/tema2/img4.png', alt='Texto que describa la imagen')
             .col-lg-6.mb-4
               h4.mb-4 Precipitación
               p Factor clave para la disponibilidad de agua en los suelos y la hidratación de los cultivos. Excesos pueden causar erosión e inundaciones, mientras que déficits generan sequías.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/tema2/img5.png', alt='Texto que describa la imagen')
             .col-lg-6.mb-4
               h4.mb-4 Radiación solar
               p Su cantidad y calidad afectan el crecimiento y rendimiento de los cultivos. Una radiación insuficiente puede reducir la producción, mientras que una excesiva puede provocar estrés térmico.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/tema2/img6.png', alt='Texto que describa la imagen')
             .col-lg-6.mb-4
               h4.mb-4 Vientos
               p Influye en la dispersión de semillas, polinización y evaporación del agua del suelo. Puede favorecer la erosión del suelo. Vientos fuertes pueden afectar estructuras agrícolas e incrementar la evaporación del agua disponible.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/tema2/img7.png', alt='Texto que describa la imagen')
             .col-lg-6.mb-4
               h4.mb-4 Presión atmosférica
               p Afecta el comportamiento del clima y la formación de fenómenos meteorológicos que ocasionan variabilidad climática. Cambios en la presión pueden influir en la temperatura y humedad del ambiente.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/tema2/img8.png', alt='Texto que describa la imagen')
             .col-lg-6.mb-4
               h4.mb-4 Evapotranspiración
               p Relacionada con la disponibilidad de agua para los cultivos. Determina la necesidad de riego en los sistemas de producción agrícola.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/tema2/img9.png', alt='Texto que describa la imagen')
             .col-lg-6.mb-4
               h4.mb-4 Nubosidad
@@ -124,7 +124,7 @@
     
     p.mb-4.ajuste-movil-bloque4 La calidad del agua es el resultado de comparar las características físicas, químicas y microbiológicas encontradas en el agua con el contenido de las normas que regulan la materia (IDEAM, 2018). Las variables o parámetros de calidad de agua recomendados para realizar el monitoreo se definen a continuación (IDEAM, 2018):
 
-    .titulo-sexto.color-acento-contenido.mb-3.d-flex
+    .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 1.
       span Definición de variables asociadas a la calidad del agua
     
@@ -192,7 +192,7 @@
     .row.m-0
       .caja-text-img-nota.ajuste-movil-bloque3
         .col-lg-auto.align-self-center
-          figure(data-aos="fade-right").d-none.d-lg-block
+          figure(data-aos="fade-right").d-none.d-xl-block
             img(src="@/assets/curso/tema2/img5.svg" style="width: 85px").m-auto
         .col-lg
           p.mb-0 Según el alcance del estudio de medición de variables ambientales y de las características del agroecosistema, se pueden adicionar o suprimir parámetros para la medición de la calidad del agua.
@@ -213,19 +213,19 @@
             h3 Textura y estructura del suelo
         p La textura es una propiedad física determinada por la composición granulométrica del suelo, compuesta por arena, limo y arcilla, cuyos diámetros están definidos según la escala de la Sociedad Internacional de la Ciencia del Suelo. Por otro lado, la estructura hace referencia a la forma en que las partículas se agrupan, lo que influye en la porosidad, la retención de agua y la aireación del suelo (Fundación Grupo Cajamar, 2024).
       .col-lg-auto.align-self-center  
-        figure.d-none.d-lg-block.img-intro
+        figure.d-none.d-xl-block.img-intro
           img(src="@/assets/curso/tema2/img10.png" style="max-width: 400px").m-auto
     
-    .titulo-sexto.color-acento-contenido.mb-3.d-flex
+    .titulo-sexto.color-acento-contenido.mb-3
       h5 Figura 2.
       span Triangulo textural y estructura de suelo
 
-    .row.fondo-color.h-100.align-items-center.m-0.justify-content-center.mb-2
+    .row.fondo-color.align-items-center.m-0.justify-content-center.mb-2
       .col-lg-auto.m-0
         figure(data-aos="fade-right")
           img(src="@/assets/curso/tema2/img11.png" alt="La imagen contiene el triángulo textural, el cual relaciona los porcentajes entre arcilla, arena y limo, lo cual permite clasificar la textura de un suelo, adicionalmente muestra los tipos de estructura que puede presentar el suelo." style="max-width: 600px").m-auto
-      .col-lg.text-tema2-bloque4.m-0
-        p.mb-0 La textura (izquierda) franca, junto con la estructura (derecha) granular, son las ideales en agricultura, porque facilitan que exista una proporción ideal de aire 25 %, agua 25 %, minerales 45 %, y materia orgánica 5%. Tomado de Fundación Grupo Cajamar, 2024. 
+      .col-lg.text-tema2-bloque4
+        p.mb-0 Nota. La textura (izquierda) franca, junto con la estructura (derecha) granular, son las ideales en agricultura, porque facilitan que exista una proporción ideal de aire 25 %, agua 25 %, minerales 45 %, y materia orgánica 5%. Tomado de Fundación Grupo Cajamar, 2024. 
     
     figcaption.mb-5 Nota. Tomado de Fundación Grupo Cajamar, 2024. 
     
@@ -238,13 +238,13 @@
     
     .row.m-0.mb-4
       .col-lg-auto.align-self-center
-        figure.ajuste-img.d-none.d-lg-block.img-intro
+        figure.ajuste-img.d-none.d-xl-block.img-intro
           img(src="@/assets/curso/tema2/img12.png" style="max-width: 400px").m-auto
       .col-lg.ajuste-movil-bloque4
         p.mb-0.text-tema2-bloque4-1.mb-3 Comprende la capa superficial del suelo (horizonte A) y el subsuelo (horizontes E y B). El horizonte C se caracteriza por presentar un menor grado de formación edafogénetica. La profundidad efectiva del suelo se define como el espesor total del perfil edáfico que influye en el desarrollo de las plantas (FAO, 2025).
         p.mb-0 Los horizontes del suelo son capas que determinan sus características y propiedades. El sistema de clasificación más utilizado para su designación emplea letras mayúsculas: H, O, A, E, B, C y R, que representan los horizontes dominantes. A continuación, se presenta una tabla y figura explicativa con su clasificación.
     
-    .titulo-sexto.color-acento-contenido.mb-3.d-flex
+    .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 2.
       span Definiciones y designaciones simplificadas de los horizontes dominantes del suelo
     
@@ -258,34 +258,34 @@
         tbody
           tr
             td H
-            td.ajuste-align <strong>Horizonte orgánico</strong> formado (o en formación) por un depósito de materia orgánica en la superficie del suelo. Se compone por un 20 a 30% de materia orgánica, y ésta depende del tipo de vegetación de donde procede la materia orgánica. 
+            td.ajuste-align <strong>Horizonte orgánico</strong>, formado (o en formación) por un depósito de materia orgánica en la superficie del suelo. Se compone por un 20 a 30% de materia orgánica, y ésta depende del tipo de vegetación de donde procede la materia orgánica. 
           tr
             td O
             td.ajuste-align <strong>Horizonte orgánico</strong>, a diferencia que no está saturado de agua más de unos cuantos días por año. Contiene por lo menos un 35% de materia orgánica que, por lo general, consiste en materia orgánica parcialmente descompuesta.
           tr
             td A
-            td.ajuste-align <strong>Horizonte mineral</strong> formado (o en formación) en la superficie o adyacente a ésta. Este horizonte muestra una acumulación de materia orgánica humificada altamente asociada con partículas minerales. Es de coloración algo más oscura que el horizonte B subyacente y el material orgánico descompuesto aparece mezclado con el material mineral dependiendo a la actividad biológica.
+            td.ajuste-align <strong>Horizonte mineral</strong>, formado (o en formación) en la superficie o adyacente a ésta. Este horizonte muestra una acumulación de materia orgánica humificada altamente asociada con partículas minerales. Es de coloración algo más oscura que el horizonte B subyacente y el material orgánico descompuesto aparece mezclado con el material mineral dependiendo a la actividad biológica.
           tr
             td E
             td.ajuste-align <strong>Horizonte eluvial</strong>, yace bajo un horizonte H, O o A. Contiene menos materia orgánica, presenta una acumulación de minerales resistentes y es de color más claro. Se forma por la pérdida de hierro, arcilla fina, etc., que han sido trasladados al horizonte B subyacente y se acumulan allí.
           tr
             td B
-            td.ajuste-align <strong>Horizonte mineral</strong> en que las partículas minerales (solas o combinadas con humus) se han concentrado con el decursar del tiempo.
+            td.ajuste-align <strong>Horizonte mineral</strong>, en que las partículas minerales (solas o combinadas con humus) se han concentrado con el decursar del tiempo.
           tr
             td C
-            td.ajuste-align <strong>Horizonte mineral de material no consolidado</strong> a partir del cual se ha desarrollado el suelo. También se incluyen aquí los materiales gravosos y pedregosos de fondo que permiten el desarrollo de las raíces.
+            td.ajuste-align <strong>Horizonte mineral de material no consolidado</strong>, a partir del cual se ha desarrollado el suelo. También se incluyen aquí los materiales gravosos y pedregosos de fondo que permiten el desarrollo de las raíces.
           tr
             td R
-            td.ajuste-align <strong>Capa de roca continua endurecida</strong> suficientemente coherente en húmedo para hacer imposible la excavación con una pala. Esta roca puede tener fisuras, pero éstas son muy escasas y demasiado pequeñas para un desarrollo radical significativo. 
+            td.ajuste-align <strong>Capa de roca continua endurecida</strong>, suficientemente coherente en húmedo para hacer imposible la excavación con una pala. Esta roca puede tener fisuras, pero éstas son muy escasas y demasiado pequeñas para un desarrollo radical significativo. 
 
-    .titulo-sexto.color-acento-contenido.mb-3.d-flex
+    .titulo-sexto.color-acento-contenido.mb-3
       h5 Figura 3.
       span Horizontes del suelo
     
     .row.fondo-color.h-100.align-items-center.m-0.justify-content-center.mb-5
       .col-lg-auto
         figure(data-aos="fade-up").py-4
-          img(src="@/assets/curso/tema2/img13.png" style="max-width: 500px").m-auto
+          img(src="@/assets/curso/tema2/img13.png" alt="La imagen realiza una representación gráfica de los horizontes del suelo, los cuales componen el suelo, subsuelo y roca madre." style="max-width: 500px").m-auto
     
     .row.mb-5.ajuste-movil-bloque4
       .col-lg-6.mb-3
@@ -320,26 +320,28 @@
 
     .row.mb-4.ajuste-movil-bloque4
       .col-lg-6.mb-4
-        .caja-text-img-nota-corto.h-100
-          .col-lg-auto.align-self-center
-            figure(data-aos="fade-up").d-none.d-lg-block
+        .caja-text-img-nota-corto.d-flex.h-100
+          .col-xl-3
+            figure(data-aos="fade-up").d-none.d-xl-block
               img(src="@/assets/curso/tema2/img7.svg" style="width: 85px").m-auto
-          .col-lg.align-self-center
-            p.mb-0 Incluyen nitrógeno, fósforo, potasio, calcio y magnesio. Se encuentran en mayor cantidad y son esenciales para el desarrollo de las plantas.
+          .col-xl-9
+            h4.p-0 Macronutrientes
+            p.mb-0.p-0 Incluyen nitrógeno, fósforo, potasio, calcio y magnesio. Se encuentran en mayor cantidad y son esenciales para el desarrollo de las plantas.
       .col-lg-6.mb-4
-        .caja-text-img-nota-corto.h-100
-          .col-lg-auto.align-self-center
-            figure(data-aos="fade-up").d-none.d-lg-block
+        .caja-text-img-nota-corto.d-flex.h-100
+          .col-xl-3
+            figure(data-aos="fade-up").d-none.d-xl-block
               img(src="@/assets/curso/tema2/img8.svg" style="width: 85px").m-auto
-          .col-lg.align-self-center
-            p.mb-0 Comprenden zinc, boro, molibdeno, manganeso, cloro y cobre. Aunque están presentes en menor proporción, son indispensables para el metabolismo vegetal.
+          .col-xl-9
+            h4.p-0 Micronutrientes
+            p.mb-0.p-0 Comprenden zinc, boro, molibdeno, manganeso, cloro y cobre. Aunque están presentes en menor proporción, son indispensables para el metabolismo vegetal.
     
     p.mb-4 Para comprender la relevancia de estas y otras variables que influyen en el desarrollo de los agroecosistemas, la siguiente tabla relaciona las variables con la condición y las funciones del suelo.
 
     .bg--img_03.mb-4
       .row.h-100.align-items-center
         .col-lg-auto
-          figure(data-aos="fade-up").d-none.d-lg-block.img-intro
+          figure(data-aos="fade-up").d-none.d-xl-block.img-intro
             img(src="@/assets/curso/tema2/img16.png", alt="alt" style="width: 370px").m-auto
         .col-lg
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
@@ -377,7 +379,7 @@
           <li><span class="fa-li"><i class="fas fa-leaf ajuste-i"></i></span>Centrarse en aspectos prácticos y relevantes.</li>
         </ul>
       .col-lg-auto
-        figure(data-aos="fade-left").d-none.d-lg-block
+        figure(data-aos="fade-left").d-none.d-xl-block
           img(src="@/assets/curso/tema2/img17.png", alt="alt" style="width: 410px").m-auto
     
     .caja-titulos-tercer-nivel.mb-4
@@ -390,38 +392,38 @@
     .row.fondo-tema2-1
       p.mb-5 Se recomienda el uso de la <strong>matriz de priorización</strong>, una herramienta que permite jerarquizar variables ambientales según su magnitud, gravedad, capacidad y beneficio, facilitando la toma de decisiones en el manejo del agroecosistema. Para su aplicación, se deben seguir los siguientes pasos:
       .row.mb-4
-        .col-lg-3.col-md-6
+        .col-xl-3.col-md-6
           .caja-text-img-tema1-bloque2.h-100
             .col-7
               figure.mb-3.img-intro-1
                 img(src='@/assets/curso/tema2/img9.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
-            h5.mb-4 Revisión bibliográfica
+            h5.mb-4.text-center Revisión bibliográfica
             p Investigar y seleccionar información sobre las variables ambientales que influyen en el agroecosistema.
-        .col-lg-3.col-md-6.ajuste-2
+        .col-xl-3.col-md-6.ajuste-2
           .caja-text-img-tema1-bloque2.h-100
             .col-7
               figure.mb-3.img-intro
                 img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
-            h5.mb-4 Consulta con actores locales
+            h5.mb-4.text-center Consulta con actores locales
             p Consultar con técnicos y agricultores locales para conocer los aspectos ambientales relevantes que están generando impacto en la región.
-        .col-lg-3.col-md-6.ajuste-1
+        .col-xl-3.col-md-6.ajuste-1
           .caja-text-img-tema1-bloque2.h-100
             .col-7
               figure.mb-3.img-intro-1
                 img(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
-            h5.mb-4 Particularidades del agroecosistema
+            h5.mb-4.text-center Particularidades del agroecosistema
             p Tipo de cultivo. Plan de fertilización. Prácticas agropecuarias. Asistencia técnica. Requerimiento de condiciones climáticas.
-        .col-lg-3.col-md-6.ajuste-1
+        .col-xl-3.col-md-6.ajuste-1
           .caja-text-img-tema1-bloque2.h-100
             .col-7
               figure.mb-3.img-intro
                 img(src='@/assets/curso/tema2/img12.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
-            h5.mb-4 Análisis de impacto
+            h5.mb-4.text-center Análisis de impacto
             p Evaluar cada variable que podría impactar el rendimiento del agroecosistema de acuerdo a las condiciones o requerimiento de producción.
 
     p.mb-4 Existen metodologías de priorización como la Matriz Vester y el Proceso de Jerarquía Analítica (AHP); sin embargo, la matriz de priorización es sencilla de aplicar y se recomienda para efectos del curso de formación, como se presenta a continuación.
 
-    .titulo-sexto.color-acento-contenido.mb-3.d-flex
+    .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 3.
       span Criterios de valoración para matriz de priorización
     
@@ -476,11 +478,11 @@
             p.mb-0 <strong>Inferiores o igual a 4</strong>: importancia baja Entre 4 y 8: importancia media Superior a 8: importancia alta
         p.mb-0 Para mayor comprensión a la hora de elaborar la priorización de las variables o criterios que tienen impacto en el agroecosistema, se presenta la siguiente matriz de priorización, donde se evalúan diferentes factores según su magnitud, gravedad, capacidad de manejo y beneficio ambiental.
       .col-lg-auto
-        figure(data-aos="fade-up").d-none.d-lg-block.img-intro
+        figure(data-aos="fade-up").d-none.d-xl-block.img-intro
           img(src="@/assets/curso/tema2/img18.png", alt="alt" style="width: 450px").m-auto
     
-    .titulo-sexto.color-acento-contenido.mb-4.d-flex
-      h5 Tabla 4.
+    .titulo-sexto.color-acento-contenido.mb-4
+      h5 Figura 4.
       span Matriz de priorización
     
     .row.justify-content-center.m-0.mb-1

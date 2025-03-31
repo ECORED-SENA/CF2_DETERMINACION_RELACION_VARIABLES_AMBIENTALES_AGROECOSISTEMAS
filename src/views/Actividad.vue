@@ -22,6 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo: Identificar la relación y posibles impactos de las variables ambientales en los agroecosistemas.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: '¡VUELVA A INTENTARLO!',
       preguntas: [
         {
           id: 1,
