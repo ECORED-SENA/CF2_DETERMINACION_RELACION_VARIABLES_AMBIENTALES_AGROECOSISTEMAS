@@ -25,31 +25,31 @@
 
       .row.mb-4.ajuste-movil-bloque4
         .col-xl-3.col-md-6
-          .caja-text-img-tema1-bloque2.h-100
+          .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
-              figure.img-intro.mb-3
-                img(src='@/assets/curso/tema2/img1.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure.mb-3
+                img(src='@/assets/curso/tema2/img1.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Temperatura (°C)
             p Magnitud física que expresa el grado de frío o calor de los cuerpos o del ambiente.
         .col-xl-3.col-md-6.ajuste-2
-          .caja-text-img-tema1-bloque2.h-100
+          .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
-              figure.img-intro-1.mb-3
-                img(src='@/assets/curso/tema2/img2.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure.mb-3
+                img(src='@/assets/curso/tema2/img2.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Humedad Relativa (%)
             p Cantidad de vapor de agua presente en el aire en relación a la máxima posible para unas condiciones dadas de presión y temperatura.
         .col-xl-3.col-md-6.ajuste-1
-          .caja-text-img-tema1-bloque2.h-100
+          .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
-              figure.img-intro.mb-3
-                img(src='@/assets/curso/tema2/img3.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure.mb-3
+                img(src='@/assets/curso/tema2/img3.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Precipitación (mm)
             p Cantidad de lluvias que se presenta en un lugar y tiempo determinado. La relación entre precipitación y temperatura a través del tiempo constituyen los escenarios de cambio climático.
         .col-xl-3.col-md-6.ajuste-1
-          .caja-text-img-tema1-bloque2.h-100
+          .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
-              figure.img-intro-1.mb-3
-                img(src='@/assets/curso/tema2/img4.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure.mb-3
+                img(src='@/assets/curso/tema2/img4.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Velocidad del Viento (m/s)
             p Relación de la distancia recorrida por el aire con respecto al tiempo empleado en recorrerla.
 
@@ -61,56 +61,56 @@
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema2/img2.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/img2.png', alt='')
             .col-lg-6.mb-4
               h4.mb-4 Temperatura
               p Influye en la germinación, crecimiento y desarrollo de los cultivos. Determina la tasa de fotosíntesis y respiración de las plantas. Variaciones extremas pueden afectar la producción agrícola (heladas, sequías).
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/img3.png', alt='')
             .col-lg-6.mb-4
               h4.mb-4 Humedad relativa
               p Afecta la transpiración de las plantas y la evapotranspiración del suelo. Valores muy altos pueden favorecer enfermedades por hongos, mientras que valores bajos pueden provocar estrés hídrico en los cultivos.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema2/img4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/img4.png', alt='')
             .col-lg-6.mb-4
               h4.mb-4 Precipitación
               p Factor clave para la disponibilidad de agua en los suelos y la hidratación de los cultivos. Excesos pueden causar erosión e inundaciones, mientras que déficits generan sequías.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema2/img5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/img5.png', alt='')
             .col-lg-6.mb-4
               h4.mb-4 Radiación solar
               p Su cantidad y calidad afectan el crecimiento y rendimiento de los cultivos. Una radiación insuficiente puede reducir la producción, mientras que una excesiva puede provocar estrés térmico.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema2/img6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/img6.png', alt='')
             .col-lg-6.mb-4
               h4.mb-4 Vientos
               p Influye en la dispersión de semillas, polinización y evaporación del agua del suelo. Puede favorecer la erosión del suelo. Vientos fuertes pueden afectar estructuras agrícolas e incrementar la evaporación del agua disponible.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema2/img7.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/img7.png', alt='')
             .col-lg-6.mb-4
               h4.mb-4 Presión atmosférica
               p Afecta el comportamiento del clima y la formación de fenómenos meteorológicos que ocasionan variabilidad climática. Cambios en la presión pueden influir en la temperatura y humedad del ambiente.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema2/img8.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/img8.png', alt='')
             .col-lg-6.mb-4
               h4.mb-4 Evapotranspiración
               p Relacionada con la disponibilidad de agua para los cultivos. Determina la necesidad de riego en los sistemas de producción agrícola.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema2/img9.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/img9.png', alt='')
             .col-lg-6.mb-4
               h4.mb-4 Nubosidad
               p Influye en la cantidad de radiación solar que llega a la superficie terrestre. Un exceso de nubosidad puede reducir la fotosíntesis, mientras que una nubosidad escasa puede aumentar la evaporación y la temperatura.
@@ -128,7 +128,7 @@
       h5 Tabla 1.
       span Definición de variables asociadas a la calidad del agua
     
-    .tabla-a.ajuste-tabla.mb-4
+    .tabla-a.ajuste-tabla.mb-4(data-aos="fade-up")
       table
         caption Nota. Tomado y adaptado de IDEAM (2018)
         thead
@@ -205,15 +205,15 @@
     .row.mb-4.ajuste-movil-bloque4
       .col-lg
         p.mb-5 Entre las principales variables del suelo que pueden influir en el desarrollo de los agroecosistemas se encuentran las siguientes:
-        .caja-titulos-tercer-nivel.mb-4
+        .caja-titulos-tercer-nivel.mb-4(data-aos="fade-right")
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
           .col
             h3 Textura y estructura del suelo
         p La textura es una propiedad física determinada por la composición granulométrica del suelo, compuesta por arena, limo y arcilla, cuyos diámetros están definidos según la escala de la Sociedad Internacional de la Ciencia del Suelo. Por otro lado, la estructura hace referencia a la forma en que las partículas se agrupan, lo que influye en la porosidad, la retención de agua y la aireación del suelo (Fundación Grupo Cajamar, 2024).
       .col-lg-auto.align-self-center  
-        figure.d-none.d-xl-block.img-intro
+        figure.d-none.d-xl-block(data-aos="fade-left")
           img(src="@/assets/curso/tema2/img10.png" style="max-width: 400px").m-auto
     
     .titulo-sexto.color-acento-contenido.mb-3
@@ -223,22 +223,22 @@
     .row.fondo-color.align-items-center.m-0.justify-content-center.mb-2
       .col-lg-auto.m-0
         figure(data-aos="fade-right")
-          img(src="@/assets/curso/tema2/img11.png" alt="La imagen contiene el triángulo textural, el cual relaciona los porcentajes entre arcilla, arena y limo, lo cual permite clasificar la textura de un suelo, adicionalmente muestra los tipos de estructura que puede presentar el suelo." style="max-width: 600px").m-auto
-      .col-lg.text-tema2-bloque4
+          img(src="@/assets/curso/tema2/img11.svg" alt="La imagen contiene el triángulo textural, el cual relaciona los porcentajes entre arcilla, arena y limo, lo cual permite clasificar la textura de un suelo, adicionalmente muestra los tipos de estructura que puede presentar el suelo." style="max-width: 600px").m-auto
+      .col-lg.text-tema2-bloque4(data-aos="fade-left")
         p.mb-0 Nota. La textura (izquierda) franca, junto con la estructura (derecha) granular, son las ideales en agricultura, porque facilitan que exista una proporción ideal de aire 25 %, agua 25 %, minerales 45 %, y materia orgánica 5%. Tomado de Fundación Grupo Cajamar, 2024. 
     
     figcaption.mb-5 Nota. Tomado de Fundación Grupo Cajamar, 2024. 
     
-    .caja-titulos-tercer-nivel.mb-5
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
-        figure(data-aos="fade-right")
+        figure
           img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
       .col
         h3 Profundidad del suelo
     
     .row.m-0.mb-4
       .col-lg-auto.align-self-center
-        figure.ajuste-img.d-none.d-xl-block.img-intro
+        figure.ajuste-img.d-none.d-xl-block(data-aos="fade-up")
           img(src="@/assets/curso/tema2/img12.png" style="max-width: 400px").m-auto
       .col-lg.ajuste-movil-bloque4
         p.mb-0.text-tema2-bloque4-1.mb-3 Comprende la capa superficial del suelo (horizonte A) y el subsuelo (horizontes E y B). El horizonte C se caracteriza por presentar un menor grado de formación edafogénetica. La profundidad efectiva del suelo se define como el espesor total del perfil edáfico que influye en el desarrollo de las plantas (FAO, 2025).
@@ -248,7 +248,7 @@
       h5 Tabla 2.
       span Definiciones y designaciones simplificadas de los horizontes dominantes del suelo
     
-    .tabla-a.ajuste-tabla.mb-5
+    .tabla-a.ajuste-tabla.mb-5(data-aos="fade-up")
       table
         caption Nota. Tomado de documento <em>Web</em> “Generalidades”. FAO (2025). 
         thead
@@ -289,9 +289,9 @@
     
     .row.mb-5.ajuste-movil-bloque4
       .col-lg-6.mb-3
-        .caja-titulos-tercer-nivel.ajuste__movil
+        .caja-titulos-tercer-nivel.ajuste__movil(data-aos="fade-right")
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
           .col.ajuste-movil
             h3 Densidad del suelo
@@ -299,9 +299,9 @@
           img(src="@/assets/curso/tema2/img14.png" style="max-width: 650px").m-auto
         p.mb-0.ajuste-color-1 Permite determinar la porosidad total del suelo, ya que se refiere al peso por unidad de volumen. Se distinguen dos tipos: la densidad real, que corresponde a las partículas densas del suelo y varía según su composición, con un valor promedio de 2,65; y la densidad aparente, que considera el volumen total del suelo, incluyendo espacios porosos (FAO, 2025).
       .col-lg-6
-        .caja-titulos-tercer-nivel.ajuste__movil
+        .caja-titulos-tercer-nivel.ajuste__movil(data-aos="fade-right")
           .col-lg-auto
-            figure(data-aos="fade-right")
+            figure
               img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
           .col
             h3 pH del suelo
@@ -309,9 +309,9 @@
           img(src="@/assets/curso/tema2/img15.png" style="max-width: 650px").m-auto
         p.mb-0.ajuste-color-2 Indica la actividad de los iones hidrógeno en la solución del suelo, determinando si es ácido, neutro o alcalino. Este parámetro influye en múltiples factores edáficos y afecta directamente el crecimiento de las plantas.
     
-    .caja-titulos-tercer-nivel.mb-4
+    .caja-titulos-tercer-nivel.mb-4(data-aos="fade-right")
       .col-lg-auto
-        figure(data-aos="fade-right")
+        figure
           img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
       .col
         h3 Macronutrientes y micronutrientes del suelo
@@ -341,8 +341,8 @@
     .bg--img_03.mb-4
       .row.h-100.align-items-center
         .col-lg-auto
-          figure(data-aos="fade-up").d-none.d-xl-block.img-intro
-            img(src="@/assets/curso/tema2/img16.png", alt="alt" style="width: 370px").m-auto
+          figure(data-aos="fade-up").d-none.d-xl-block
+            img(src="@/assets/curso/tema2/img16.png", alt='' style="width: 370px").m-auto
         .col-lg
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Físicas").ajuste-cajaAcordion
@@ -380,11 +380,11 @@
         </ul>
       .col-lg-auto
         figure(data-aos="fade-left").d-none.d-xl-block
-          img(src="@/assets/curso/tema2/img17.png", alt="alt" style="width: 410px").m-auto
+          img(src="@/assets/curso/tema2/img17.svg", alt='' style="width: 410px").m-auto
     
-    .caja-titulos-tercer-nivel.mb-4
+    .caja-titulos-tercer-nivel.mb-4(data-aos="fade-right")
       .col-lg-auto
-        figure(data-aos="fade-right")
+        figure
           img(src="@/assets/curso/tema2/img6.svg" style="max-width: 62px").m-auto
       .col
         h3 Metodología de priorización
@@ -393,31 +393,31 @@
       p.mb-5 Se recomienda el uso de la <strong>matriz de priorización</strong>, una herramienta que permite jerarquizar variables ambientales según su magnitud, gravedad, capacidad y beneficio, facilitando la toma de decisiones en el manejo del agroecosistema. Para su aplicación, se deben seguir los siguientes pasos:
       .row.mb-4
         .col-xl-3.col-md-6
-          .caja-text-img-tema1-bloque2.h-100
+          .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
-              figure.mb-3.img-intro-1
-                img(src='@/assets/curso/tema2/img9.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure.mb-3
+                img(src='@/assets/curso/tema2/img9.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Revisión bibliográfica
             p Investigar y seleccionar información sobre las variables ambientales que influyen en el agroecosistema.
         .col-xl-3.col-md-6.ajuste-2
-          .caja-text-img-tema1-bloque2.h-100
+          .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
-              figure.mb-3.img-intro
-                img(src='@/assets/curso/tema2/img10.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure.mb-3
+                img(src='@/assets/curso/tema2/img10.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Consulta con actores locales
             p Consultar con técnicos y agricultores locales para conocer los aspectos ambientales relevantes que están generando impacto en la región.
         .col-xl-3.col-md-6.ajuste-1
-          .caja-text-img-tema1-bloque2.h-100
+          .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
-              figure.mb-3.img-intro-1
-                img(src='@/assets/curso/tema2/img11.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure.mb-3
+                img(src='@/assets/curso/tema2/img20.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Particularidades del agroecosistema
             p Tipo de cultivo. Plan de fertilización. Prácticas agropecuarias. Asistencia técnica. Requerimiento de condiciones climáticas.
         .col-xl-3.col-md-6.ajuste-1
-          .caja-text-img-tema1-bloque2.h-100
+          .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
-              figure.mb-3.img-intro
-                img(src='@/assets/curso/tema2/img12.svg', alt='Texto que describa la imagen' style="max-width: 95px").m-auto
+              figure.mb-3
+                img(src='@/assets/curso/tema2/img12.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Análisis de impacto
             p Evaluar cada variable que podría impactar el rendimiento del agroecosistema de acuerdo a las condiciones o requerimiento de producción.
 
@@ -427,7 +427,7 @@
       h5 Tabla 3.
       span Criterios de valoración para matriz de priorización
     
-    .tabla-a.ajuste-tabla.mb-5
+    .tabla-a.ajuste-tabla.mb-5(data-aos="fade-up")
       table
         thead
           tr
@@ -471,24 +471,24 @@
     .row.mb-4.h-100.align-items-center.ajuste-movil-bloque4
       .col-lg
         p De acuerdo con los valores asignados a cada criterio, la importancia de la variable puede variar entre 2	y 12 unidades, para lo cual se establece la siguiente significancia:
-        .row.m-0
+        .row.m-0(data-aos="fade-right")
           .col-6.caja-text-bloque4.mb-3.text-center
             p.mb-0 <strong>Total</strong> = M+G+C+B
           .col-6.caja-text-bloque4.mb-3.dividir-caja
             p.mb-0 <strong>Inferiores o igual a 4</strong>: importancia baja Entre 4 y 8: importancia media Superior a 8: importancia alta
         p.mb-0 Para mayor comprensión a la hora de elaborar la priorización de las variables o criterios que tienen impacto en el agroecosistema, se presenta la siguiente matriz de priorización, donde se evalúan diferentes factores según su magnitud, gravedad, capacidad de manejo y beneficio ambiental.
       .col-lg-auto
-        figure(data-aos="fade-up").d-none.d-xl-block.img-intro
-          img(src="@/assets/curso/tema2/img18.png", alt="alt" style="width: 450px").m-auto
+        figure(data-aos="fade-up").d-none.d-xl-block
+          img(src="@/assets/curso/tema2/img18.png", alt='' style="width: 450px").m-auto
     
     .titulo-sexto.color-acento-contenido.mb-4
       h5 Figura 4.
       span Matriz de priorización
     
-    .row.justify-content-center.m-0.mb-1
+    .row.justify-content-center.m-0.mb-1(data-aos="fade-up")
       .col-lg-12
         figure.ajuste-img-matrix
-          img(src='@/assets/curso/tema2/img19.png', alt='Matriz de priorización con variables ambientales y criterios de evaluación, incluyendo contaminación del suelo, deforestación y fertilidad.' style="max-width: 900px").m-auto
+          img(src='@/assets/curso/tema2/img19.svg', alt='Matriz de priorización con variables ambientales y criterios de evaluación, incluyendo contaminación del suelo, deforestación y fertilidad.' style="max-width: 900px").m-auto
 
 </template>
 

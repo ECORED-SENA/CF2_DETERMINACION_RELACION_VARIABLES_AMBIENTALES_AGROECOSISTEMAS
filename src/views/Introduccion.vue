@@ -21,7 +21,7 @@
         .col
           p El uso de herramientas de priorización contribuye a la gestión sostenible de los recursos naturales, minimizando el deterioro ambiental. Además, permite la implementación de estrategias adaptadas a las condiciones específicas de cada agroecosistema, asegurando su resiliencia y sostenibilidad a largo plazo.
       .col-lg-auto.p-0
-        figure(data-aos="fade-right").img-intro.d-none.d-xl-block
+        figure(data-aos="fade-up").d-none.d-xl-block
           img(src="@/assets/curso/intro/img2.png" style="max-width: 300px").m-auto
 
 </template>

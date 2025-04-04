@@ -28,21 +28,21 @@
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img2.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Aumento de producción
               p Permite satisfacer la creciente demanda de alimentos mientras se conserva la biodiversidad y se reduce la presión sobre los recursos naturales y los ecosistemas.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img3.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Seguridad alimentaria
               p Garantiza la producción sostenible de alimentos nutritivos frente a desafíos como el cambio climático, el crecimiento poblacional y las variaciones en la dieta.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img4.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Sector agrícola como usuario de la biodiversidad
               p Una gestión sostenible de los agroecosistemas favorece funciones ecosistémicas esenciales para la producción agrícola.
@@ -50,21 +50,21 @@
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img5.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Servicios reguladores
               p El mantenimiento adecuado de tierras agrícolas y forestales ayuda a mitigar riesgos y minimizar daños causados por fenómenos climáticos extremos.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img6.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Menor erosión
               p La cubierta vegetal protege el suelo contra la erosión y mantiene su fertilidad mediante procesos biológicos naturales como la fijación de nitrógeno.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img7.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img7.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Control biológico
               p Los enemigos naturales de las plagas, como depredadores, parásitos y agentes patógenos, proporcionan un control biológico que reduce la necesidad de agroquímicos.
@@ -83,7 +83,7 @@
     .row.justify-content-center.m-0.mb-1
       .col-lg-12.caja-img-tema1-bloque3
         figure(data-aos="fade-up")
-          img(src='@/assets/curso/tema1/img16.png', alt='La imagen describe la necesidad de integrar los principios de la agroecología con las necesidades de biodiversidad, contemplando acciones climáticas y enfoques de desarrollo territorial' style="max-width: 1200px").m-auto
+          img(src='@/assets/curso/tema1/img16.svg', alt='La imagen describe la necesidad de integrar los principios de la agroecología con las necesidades de biodiversidad, contemplando acciones climáticas y enfoques de desarrollo territorial' style="max-width: 1200px").m-auto
     figcaption Nota. Tomado de Agricultura Sostenible y Biodiversidad. FAO (2018, p. 33). 
     
     Separador
@@ -99,35 +99,35 @@
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img8.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img8.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Territorios artificializados
               p Comprende áreas urbanas y zonas contiguas en proceso de transformación por ordenamiento territorial o cambio de uso del suelo con fines comerciales, industriales, de servicios y recreativos.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img9.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img9.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Territorios agrícolas
               p Áreas dedicadas a la producción de alimentos y materias primas industriales. Incluyen cultivos, pastoreo, sistemas agroforestales, industrialización agrícola, cultivos transitorios y zonas agrícolas heterogéneas.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img10.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img10.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Bosques y áreas seminaturales
               p Incluye coberturas vegetales boscosas, arbustivas y herbáceas en distintos sustratos y altitudes. También abarca suelos desnudos, afloramientos rocosos, plantaciones forestales y vegetación secundaria o en transición.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img11.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img11.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Áreas húmedas
               p Terrenos húmedos que pueden inundarse temporalmente y estar cubiertos parcialmente por vegetación acuática. Se encuentran en bordes marinos y en el interior del continente.
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
-                img(src='@/assets/curso/tema1/img12.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/img12.png', alt='')
             .col-lg-6.mb-4.col-xs-12
               h4.mb-4 Superficies de agua
               p Cuerpos y cauces de agua permanentes, intermitentes o estacionales, tanto en el interior del continente como en zonas costeras. Incluye fondos marinos de hasta 12 metros de profundidad.
@@ -147,17 +147,17 @@
             p.mb-0 Los bioindicadores o indicadores biológicos comprenden procesos biológicos, especies o comunidades de organismos utilizados para evaluar la calidad del medio ambiente y su evolución a lo largo del tiempo. Las variaciones en el entorno pueden deberse tanto a la intervención humana (contaminación, erosión, actividades agrícolas) como a procesos naturales (sequías, heladas). Sin embargo, la investigación sobre bioindicadores se centra principalmente en los factores antropogénicos, ya que son los que generan mayor impacto ambiental (<em>Holt</em> y Miller, 2010).
         p.mb-4 A continuación, se describen los diferentes tipos de bioindicadores, según el tipo de ecosistema de estudio, y algunos ejemplos (Fernández, 2020):
       .col-lg-auto
-        figure(data-aos="fade-left").d-none.d-xl-block.img-bloque3
+        figure(data-aos="fade-left").d-none.d-xl-block
           img(src="@/assets/curso/tema1/img13.png" style="max-width: 400px").m-auto
     
     .row.mb-4.m-0
       .col-lg-auto
         figure(data-aos="fade-right").d-none.d-xl-block
-          img.ajuste-img-tema1-bloque5(src="@/assets/curso/tema1/img14.png" style="max-width: 420px").m-auto
+          img.ajuste-img-tema1-bloque5(src="@/assets/curso/tema1/img14.svg" style="max-width: 420px").m-auto
       .col-lg.caja-text-img-tema1-bloque5-1.d-flex.h-100.justify-content-center.align-items-center
         .col-auto
           figure.d-none.d-lg-block.img-intro
-            img.img-tema1-bloque5(src="@/assets/curso/tema1/img15.png" style="max-width: 185px").m-auto
+            img.img-tema1-bloque5(src="@/assets/curso/tema1/img15.svg" style="max-width: 185px").m-auto
         .col
           h4.mb-5 Lo invitamos a escuchar el siguiente <em>Podcast</em>:
           TarjetaAudio.color-secundario.mb-3(
