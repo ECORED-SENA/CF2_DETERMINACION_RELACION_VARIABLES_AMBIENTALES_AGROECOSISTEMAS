@@ -485,7 +485,7 @@
       h5 Figura 4.
       span Matriz de priorización
     
-    .row.justify-content-center.m-0.mb-1(data-aos="fade-up")
+    .row.justify-content-center.m-0.mb-1(data-aos="fade-right")
       .col-lg-12
         figure.ajuste-img-matrix
           img(src='@/assets/curso/tema2/img19.svg', alt='Matriz de priorización con variables ambientales y criterios de evaluación, incluyendo contaminación del suelo, deforestación y fertilidad.' style="max-width: 900px").m-auto
