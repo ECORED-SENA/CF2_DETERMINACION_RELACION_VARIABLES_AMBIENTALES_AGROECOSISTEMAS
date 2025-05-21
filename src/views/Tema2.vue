@@ -24,28 +24,28 @@
       p.mb-5.ajuste-movil-bloque4(data-aos="fade-right") Entre las variables agroclimáticas más importantes están:
 
       .row.mb-4.ajuste-movil-bloque4
-        .col-xl-3.col-md-6
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
           .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
               figure.mb-3
                 img(src='@/assets/curso/tema2/img1.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Temperatura (°C)
             p Magnitud física que expresa el grado de frío o calor de los cuerpos o del ambiente.
-        .col-xl-3.col-md-6.ajuste-2
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
           .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
               figure.mb-3
                 img(src='@/assets/curso/tema2/img2.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Humedad relativa (%)
             p Cantidad de vapor de agua presente en el aire con relación a la máxima posible para unas condiciones dadas de presión y temperatura.
-        .col-xl-3.col-md-6.ajuste-1
+        .col-lg-3.col-md-6.mb-4.mb-md-0
           .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
               figure.mb-3
                 img(src='@/assets/curso/tema2/img3.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Precipitación (mm)
             p Cantidad de lluvias que se presenta en un lugar y tiempo determinado. La relación entre precipitación y temperatura a través del tiempo constituyen los escenarios de cambio climático.
-        .col-xl-3.col-md-6.ajuste-1
+        .col-lg-3.col-md-6
           .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
               figure.mb-3
@@ -393,28 +393,28 @@
     .row.fondo-tema2-1
       p.mb-5 Se recomienda el uso de la <strong>matriz de priorización</strong>, una herramienta que permite jerarquizar variables ambientales según su magnitud, gravedad, capacidad y beneficio, facilitando la toma de decisiones en el manejo del agroecosistema. Para su aplicación, se deben seguir los siguientes pasos:
       .row.mb-4
-        .col-xl-3.col-md-6
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
           .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
               figure.mb-3
                 img(src='@/assets/curso/tema2/img9.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Revisión bibliográfica
             p Investigar y seleccionar información sobre las variables ambientales que influyen en el agroecosistema.
-        .col-xl-3.col-md-6.ajuste-2
+        .col-lg-3.col-md-6.mb-4.mb-lg-0
           .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
               figure.mb-3
                 img(src='@/assets/curso/tema2/img10.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Consulta con actores locales
             p Consultar con técnicos y agricultores locales para conocer los aspectos ambientales relevantes que están generando impacto en la región.
-        .col-xl-3.col-md-6.ajuste-1
+        .col-lg-3.col-md-6.mb-4.mb-md-0
           .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
               figure.mb-3
                 img(src='@/assets/curso/tema2/img20.svg', alt='' style="max-width: 95px").m-auto
             h5.mb-4.text-center Particularidades del agroecosistema
             p Tipo de cultivo. Plan de fertilización. Prácticas agropecuarias. Asistencia técnica. Requerimiento de condiciones climáticas.
-        .col-xl-3.col-md-6.ajuste-1
+        .col-lg-3.col-md-6
           .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
               figure.mb-3
