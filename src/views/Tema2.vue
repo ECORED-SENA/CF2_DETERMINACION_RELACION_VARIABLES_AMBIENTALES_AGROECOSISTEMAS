@@ -10,7 +10,7 @@
     <!-- BLOQUE 1 -->
     .row.h-100.align-items-center.text-tema1-bloque1.d-d-flex
       .col-lg
-        p.mb-0 Para mayor comprensión a continuación, se describen cada una de las variables ambientales que pueden tener incidencia en el desarrollo de los agroecosistemas.
+        p.mb-0 Para mayor comprensión, a continuación, se describen cada una de las variables ambientales que pueden tener incidencia en el desarrollo de los agroecosistemas.
       .col-lg-auto.p-0
         figure(data-aos="fade-left").d-none.d-xl-block
           img(src="@/assets/curso/tema2/img1.png" style="max-width: 400px").m-auto
@@ -21,7 +21,7 @@
       #t_2_1.titulo-segundo.color-acento-contenido
         h2 2.1 Variables agroclimáticas
       
-      p.mb-5.ajuste-movil-bloque4 Entre las variables agroclimáticas más importantes están:
+      p.mb-5.ajuste-movil-bloque4(data-aos="fade-right") Entre las variables agroclimáticas más importantes están:
 
       .row.mb-4.ajuste-movil-bloque4
         .col-xl-3.col-md-6
@@ -36,8 +36,8 @@
             .col-7
               figure.mb-3
                 img(src='@/assets/curso/tema2/img2.svg', alt='' style="max-width: 95px").m-auto
-            h5.mb-4.text-center Humedad Relativa (%)
-            p Cantidad de vapor de agua presente en el aire en relación a la máxima posible para unas condiciones dadas de presión y temperatura.
+            h5.mb-4.text-center Humedad relativa (%)
+            p Cantidad de vapor de agua presente en el aire con relación a la máxima posible para unas condiciones dadas de presión y temperatura.
         .col-xl-3.col-md-6.ajuste-1
           .caja-text-img-tema1-bloque2.h-100(data-aos="flip-left")
             .col-7
@@ -50,14 +50,14 @@
             .col-7
               figure.mb-3
                 img(src='@/assets/curso/tema2/img4.svg', alt='' style="max-width: 95px").m-auto
-            h5.mb-4.text-center Velocidad del Viento (m/s)
+            h5.mb-4.text-center Velocidad del viento (m/s)
             p Relación de la distancia recorrida por el aire con respecto al tiempo empleado en recorrerla.
 
-    p.mb-4 Según la FAO (2021), IDEAM (2018) y Minagricultura (2024), las variables agroclimáticas permiten identificar las condiciones atmosféricas que pueden afectar la producción agrícola y el equilibrio de los agroecosistemas. Algunos de los principales factores que influyen en su desarrollo incluyen:
+    p.mb-4(data-aos="fade-right") Según la FAO (2021), IDEAM (2018) y Minagricultura (2024), las variables agroclimáticas permiten identificar las condiciones atmosféricas que pueden afectar la producción agrícola y el equilibrio de los agroecosistemas. Algunos de los principales factores que influyen en su desarrollo incluyen:
 
     .row.fondo-slider.mb-4
       .ajuste-slider
-        SlyderA(tipo="b")
+        SlyderA(tipo="b")(data-aos="fade-left")
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
@@ -115,14 +115,14 @@
               h4.mb-4 Nubosidad
               p Influye en la cantidad de radiación solar que llega a la superficie terrestre. Un exceso de nubosidad puede reducir la fotosíntesis, mientras que una nubosidad escasa puede aumentar la evaporación y la temperatura.
 
-    p Además de estas variables, es importante conocer en determinados casos el comportamiento de variables como el caudal de fuentes hídricas aledañas, radiación solar, brillo solar, rosa de vientos, horas brillo solar entre otras.
+    p(data-aos="fade-left") Además de estas variables, es importante conocer en determinados casos el comportamiento de variables como el caudal de fuentes hídricas aledañas, radiación solar, brillo solar, rosa de vientos, horas, brillo solar, entre otras.
 
     Separador
     <!-- BLOQUE 3 -->
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Definición de las variables ambientales del agua
     
-    p.mb-4.ajuste-movil-bloque4 La calidad del agua es el resultado de comparar las características físicas, químicas y microbiológicas encontradas en el agua con el contenido de las normas que regulan la materia (IDEAM, 2018). Las variables o parámetros de calidad de agua recomendados para realizar el monitoreo se definen a continuación (IDEAM, 2018):
+    p.mb-4.ajuste-movil-bloque4(data-aos="fade-right") La calidad del agua es el resultado de comparar las características físicas, químicas y microbiológicas encontradas en el agua con el contenido de las normas que regulan la materia (IDEAM, 2018). Las variables o parámetros de calidad de agua recomendados para realizar el monitoreo se definen a continuación (IDEAM, 2018):
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 1.
@@ -258,10 +258,10 @@
         tbody
           tr
             td H
-            td.ajuste-align <strong>Horizonte orgánico</strong>, formado (o en formación) por un depósito de materia orgánica en la superficie del suelo. Se compone por un 20 a 30% de materia orgánica, y ésta depende del tipo de vegetación de donde procede la materia orgánica. 
+            td.ajuste-align <strong>Horizonte orgánico</strong>, formado (o en formación) por un depósito de materia orgánica en la superficie del suelo. Se compone por un 20 a 30 % de materia orgánica, y ésta depende del tipo de vegetación de donde procede la materia orgánica. 
           tr
             td O
-            td.ajuste-align <strong>Horizonte orgánico</strong>, a diferencia que no está saturado de agua más de unos cuantos días por año. Contiene por lo menos un 35% de materia orgánica que, por lo general, consiste en materia orgánica parcialmente descompuesta.
+            td.ajuste-align <strong>Horizonte orgánico</strong>, a diferencia que no está saturado de agua más de unos cuantos días por año. Contiene por lo menos un 35 % de materia orgánica que, por lo general, consiste en materia orgánica parcialmente descompuesta.
           tr
             td A
             td.ajuste-align <strong>Horizonte mineral</strong>, formado (o en formación) en la superficie o adyacente a ésta. Este horizonte muestra una acumulación de materia orgánica humificada altamente asociada con partículas minerales. Es de coloración algo más oscura que el horizonte B subyacente y el material orgánico descompuesto aparece mezclado con el material mineral dependiendo a la actividad biológica.
@@ -286,6 +286,7 @@
       .col-lg-auto
         figure(data-aos="fade-up").py-4
           img(src="@/assets/curso/tema2/img13.png" alt="La imagen realiza una representación gráfica de los horizontes del suelo, los cuales componen el suelo, subsuelo y roca madre." style="max-width: 500px").m-auto
+        figcaption Nota. Horizontes del suelo. (s.f.). [Imagen].
     
     .row.mb-5.ajuste-movil-bloque4
       .col-lg-6.mb-3

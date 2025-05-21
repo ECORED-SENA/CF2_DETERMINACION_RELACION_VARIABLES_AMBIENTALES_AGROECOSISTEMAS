@@ -75,12 +75,12 @@ export default {
             {
               id: 'c',
               texto: 'Lombrices.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto: 'Aves.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

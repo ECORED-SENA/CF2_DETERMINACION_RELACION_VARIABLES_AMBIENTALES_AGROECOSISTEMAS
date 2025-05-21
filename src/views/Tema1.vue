@@ -8,11 +8,11 @@
       h1 Biodiversidad en agroecosistemas
     
     <!-- BLOQUE 1 -->
-    .row.text-tema1-bloque1.h-100.align-items-center.d-d-flex.ajuste-movil-bloque4.m-0
+    .row.text-tema1-bloque1.h-100.align-items-center.d-d-flex.ajuste-movil-bloque4.m-0(data-aos="fade-right")
       .col-lg
         p.mb-0 La diversidad agrícola o agrodiversidad es un concepto que vincula la diversidad biológica con la producción agrícola. Su importancia radica en la disponibilidad de recursos asociados a la flora y fauna, incluyendo bioindicadores del suelo y otros organismos que favorecen el desarrollo óptimo de los agroecosistemas. En los últimos años, los científicos han resaltado la relevancia de la biodiversidad para que los sistemas agrícolas produzcan en armonía con el medio biótico, convirtiéndola en un principio fundamental de la agricultura sostenible (Metroflor-Agro, 2017).
       .col-lg-auto.p-0
-        figure(data-aos="fade-left").d-none.d-xl-block
+        figure.d-none.d-xl-block
           img(src="@/assets/curso/tema1/img1.png" style="max-width: 400px").m-auto
     
     Separador
@@ -20,11 +20,11 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Inventarios y evaluación
     
-    p.mb-5.ajuste-movil-bloque4 Conocer la biodiversidad en un sistema agrícola o pecuario es esencial para implementar un manejo sostenible y garantizar una productividad óptima a lo largo del ciclo de vida del agroecosistema. A continuación, se presentan algunos aspectos clave que justifican la gestión de la biodiversidad en una finca (FAO, 2018).
+    p.mb-5.ajuste-movil-bloque4(data-aos="fade-down") Conocer la biodiversidad en un sistema agrícola o pecuario es esencial para implementar un manejo sostenible y garantizar una productividad óptima a lo largo del ciclo de vida del agroecosistema. A continuación, se presentan algunos aspectos clave que justifican la gestión de la biodiversidad en una finca (FAO, 2018).
 
     .row.fondo-slider
       .ajuste-slider
-        SlyderA(tipo="b")
+        SlyderA(tipo="b")(data-aos="fade-left")
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
@@ -74,28 +74,28 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Gestión entre servicios ecosistémicos y biodiversidad
     
-    p.mb-5.ajuste-movil-bloque4 Según la FAO (2018), es fundamental promover sistemas productivos sostenibles basados en los principios de la agroecología. Este enfoque permite integrar factores ecológicos, sociales y propios de los agroecosistemas, garantizando una producción en armonía con la biodiversidad. Para ello, es necesario implementar acciones climáticas que vinculen la conservación de la biodiversidad con el desarrollo territorial sostenible.
+    p.mb-5.ajuste-movil-bloque4(data-aos="fade-down") Según la FAO (2018), es fundamental promover sistemas productivos sostenibles basados en los principios de la agroecología. Este enfoque permite integrar factores ecológicos, sociales y propios de los agroecosistemas, garantizando una producción en armonía con la biodiversidad. Para ello, es necesario implementar acciones climáticas que vinculen la conservación de la biodiversidad con el desarrollo territorial sostenible.
 
-    .titulo-sexto.color-acento-contenido.mb-3.ajuste-movil-bloque4
+    .titulo-sexto.color-acento-contenido.mb-3.ajuste-movil-bloque4(data-aos="fade-right")
       h5 Figura 1.
       span Gestión de la biodiversidad y servicios
     
     .row.justify-content-center.m-0.mb-1
       .col-lg-12.caja-img-tema1-bloque3
-        figure(data-aos="fade-up")
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img16.svg', alt='La imagen describe la necesidad de integrar los principios de la agroecología con las necesidades de biodiversidad, contemplando acciones climáticas y enfoques de desarrollo territorial' style="max-width: 1200px").m-auto
-    figcaption Nota. Tomado de Agricultura Sostenible y Biodiversidad. FAO (2018, p. 33). 
+    figcaption(data-aos="fade-down") Nota. Tomado de Agricultura Sostenible y Biodiversidad. FAO (2018, p. 33). 
     
     Separador
     <!-- BLOQUE 4 -->
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3 Tipos de coberturas vegetales
     
-    p.ajuste-movil-bloque4 Teniendo en cuenta la leyenda nacional de coberturas de la tierra 2010, las categorías de primer nivel según metodología <em>Corine Land Cover</em> se definen como (IDEAM, 2009): 
+    p.ajuste-movil-bloque4(data-aos="fade-down") Teniendo en cuenta la leyenda nacional de coberturas de la tierra 2010, las categorías de primer nivel según metodología <em>Corine Land Cover</em> se definen como (IDEAM, 2009): 
 
     .row.fondo-slider
       .ajuste-slider
-        SlyderA(tipo="b")
+        SlyderA(tipo="b")(data-aos="fade-left")
           .row.h-100.justify-content-center.align-items-center
             .col-lg-6
               figure.mb-3
@@ -165,7 +165,7 @@
             :audio="require('@/assets/componentes/audios/Podcast_CF2_DETERMINACION_RELACION_VARIABLES_AMBIENTALES_AGROECOSISTEMAS.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
-    p El muestreo de cada bioindicador varía según el tipo de organismo. Por ejemplo, en el caso de las aves, se puede llevar a cabo un inventario mediante observación directa. Para registrar insectos acuáticos, se emplean trampas entomológicas como método de recolección. En el caso de los microorganismos, es necesario tomar muestras y enviarlas a un laboratorio para su análisis y procesamiento.
+    p(data-aos="fade-left") El muestreo de cada bioindicador varía según el tipo de organismo. Por ejemplo, en el caso de las aves, se puede llevar a cabo un inventario mediante observación directa. Para registrar insectos acuáticos, se emplean trampas entomológicas como método de recolección. En el caso de los microorganismos, es necesario tomar muestras y enviarlas a un laboratorio para su análisis y procesamiento.
 
 </template>
 
